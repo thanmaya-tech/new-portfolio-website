@@ -1,0 +1,134 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body.dark-mode {
+    background-color: #333;
+    color: #fff;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 15px 0;
+}
+
+header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+header nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+section {
+    padding: 40px 20px;
+}
+
+#home {
+    background-image: linear-gradient(to bottom, #333, #555);
+    color: #fff;
+    text-align: center;
+}
+
+#about {
+    background-color: #f7f7f7;
+}
+
+#projects {
+    background-color: #fff;
+}
+
+#contact {
+    background-color: #f7f7f7;
+}
+
+button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+.project {
+    display: block;
+}
+
+.project.show {
+    display: block;
+}
+
+#project-list {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.project {
+    text-align: left;
+    margin-bottom: 25px;
+}
+
+#contact form {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+}
+
+#contact input,
+#contact textarea {
+    width: 400px;
+    padding: 12px;
+    margin: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+#contact textarea {
+    height: 120px;
+    resize: none;
+}
+#skills {
+    width: 100%;
+    background-color: #ffffff;
+    text-align: left;
+    margin-top: 40px;
+}
+
+.skills-container {
+    display: flex;
+    justify-content: flex-start;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.skill {
+    background-color: #333;
+    color: white;
+    padding:12px 25px;
+    border-radius: 6x;
+    font-size: 16px;
+}
+.skill:hover {
+  transform: scale(1.1);
+  background-color: #555;
+  transition: 0.3s;
+}
