@@ -5,7 +5,7 @@ A personal portfolio website showcasing my projects, skills, and contact informa
 ---
 
 ## 🚀 Live Demo
-https://thanmaya-d.github.io/new-portfolio-website/
+ https://thanmaya-tech.github.io/new-portfolio-website/
 
 ---
 
